@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: rafael_test
+    database: nba_kaggle  
+    schema: raw  
+    tables:
+      - name: DRAFT_HISTORY
+      - name: GAME
